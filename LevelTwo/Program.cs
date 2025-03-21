@@ -1,5 +1,6 @@
 ﻿using System;
 using Spectre.Console;
+using SoGoodLib;
 
 namespace LevelTwo
 {
@@ -7,6 +8,7 @@ namespace LevelTwo
     {
         private static void Main(string[] args)
         {
+            Console.WriteLine(SoGoodLib.SoGoodClass.SoGoodMethod());
             CanvasImage image = new CanvasImage("tux.jpg"); 
 
             if (args.Length == 0)
